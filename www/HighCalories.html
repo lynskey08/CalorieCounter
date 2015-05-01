@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+ <center>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="calorific">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Calorific</h1>
+      </ion-header-bar>
+      <ion-content>
+	  <link rel="stylesheet" href="styles.css">
+	    <!-- Tab Navigation -->
+		<div id="menu"><!-- Name of menu for the css -->
+		  <ul>
+		    <!-- Tab Navigation Names -->
+			<li><a href="index.html" title="Home">Home</a></li>
+			<li><a href="HighCalories.html" title="HighCalories">High Calorie Foods</a></li>
+			<li><a href="LowCalories.html" title="LowCalories">Low Calorie Foods</a></li>
+		  </ul>
+		</div>
+		<!-- Background Image -->
+		<div id = "FruitPacman">
+		<img src="FruitPacman.jpg" >
+		</div>
+		<!-- Box telling you about the content on the page -->
+		<div id = "box2">
+			   <!-- Content in box -->
+			   <p align="left">Everybody has bad habits, especially when it comes to eating.Some of us snack incessantly<br>while we work.Bad eating habits seriously eat away at your health. They can make you fat,<br>sluggish and generally unhealthy. Here is a list of common unhealthy foods with a high<br>calorie rate you may not of known.</p>
+		</div>
+		<!-- Table of foods & calories per 100g-->
+          <ion-tabs class="tabs-positive">
+		    <ion-tab>
+				<!-- Table format-->
+				<table id ="table" style="border-width: 10px; border-spacing: 5px; padding: 15px">
+					<!-- Content of the table-->
+					<tr>
+					<th colspan="3" style="font-size: large; background-color: #31B404; color: black" width="50" >Common High Calorie Foods</th>
+					</tr>
+					
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Chocolate</th>
+						<td style="background-color: #FFFFFF">535 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Cheese</th>
+						<td style="background-color: #FFFFFF">353 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Crisps</th>
+						<td style="background-color: #FFFFFF">536 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Ice Cream</th>
+						<td style="background-color: #FFFFFF">318 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>	
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Toffee Popcorn</th>
+						<td style="background-color: #FFFFFF">405 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Fried Bacon</th>
+						<td style="background-color: #FFFFFF">304 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Kebab</th>
+						<td style="background-color: #FFFFFF">270+ Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >3 in 1</th>
+						<td style="background-color: #FFFFFF">956 Cal</td><td style="background-color: #BCF5A9">per serving</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Chicken Fillet</th>
+						<td style="background-color: FFFFFF">219 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Lamb Chop</th>
+						<td style="background-color: FFFFFF">246 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Pork Chop</th>
+						<td style="background-color: FFFFFF">265 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Beef</th>
+						<td style="background-color: FFFFFF">250 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Sausage</th>
+						<td style="background-color: FFFFFF">252 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Butter</th>
+						<td style="background-color: FFFFFF">717 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Mayonnaise</th>
+						<td style="background-color: FFFFFF">680 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Peanut Butter</th>
+						<td style="background-color: FFFFFF">535 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Bread, White</th>
+						<td style="background-color: FFFFFF">289 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Plain Bagel</th>
+						<td style="background-color: FFFFFFF">255 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Baguette</th>
+						<td style="background-color: FFFFFF">240 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Brown Bread</th>
+						<td style="background-color: FFFFFF">235 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Danish Pastry</th>
+						<td style="background-color: FFFFFF">428 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Digestive Biscuit</th>
+						<td style="background-color: FFFFFF">470 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Jaffa Cake</th>
+						<td style="background-color: FFFFFF">374 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Jam Doughnut</th>
+						<td style="background-color: FFFFFF">287 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Toast, White</th>
+						<td style="background-color: FFFFFF">258 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+					<tr>
+						<th rowspan="1" style="background-color: #FACC2E; color: black" >Cereal</th>
+						<td style="background-color: FFFFFF">371 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+					</tr>
+				</table>
+			
+				<!-- Calculator -->
+				<p><h3>Calorie Counter</h3></p>
+				<form name="calculator" >
+				<input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+				<input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+				<input type="button" value="3" onClick="document.calculator.ans.value+='3'">
+				<input type="button" value="+" onClick="document.calculator.ans.value+='+'"><br>
+				 
+				<input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+				<input type="button" value="5" onClick="document.calculator.ans.value+='5'">
+				<input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+				<input type="button" value="-" onClick="document.calculator.ans.value+='-'"><br>
+				 
+				<input type="button" value="7" onClick="document.calculator.ans.value+='7'">
+				<input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+				<input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+				<input type="button" value="*" onClick="document.calculator.ans.value+='*'"><br>
+				<input type="button" value="/" onClick="document.calculator.ans.value+='/'">
+				 
+				<input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+				<input type="reset" value="C">
+				<input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+				<br>Total <input type="textfield" name="ans" value="">
+				</form>
+			</ion-tab>
+		  </ion-tabs>
+       </ion-content>
+    </ion-pane>
+	
+  </body>
+ </center>
+</html>

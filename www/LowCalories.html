@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="calorific">
+   <center>
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Calorific</h1>
+      </ion-header-bar>
+      <ion-content>
+	  <link rel="stylesheet" href="styles.css">
+	    <!-- Tab Navigation -->
+		<div id="menu"><!-- Name of menu for the css -->
+		  <ul>
+		    <!-- Tab Navigation Names -->
+			<li><a href="index.html" title="Home">Home</a></li>
+			<li><a href="HighCalories.html" title="HighCalories">High Calorie Foods</a></li>
+			<li><a href="LowCalories.html" title="LowCalories">Low Calorie Foods</a></li>
+		  </ul>
+		</div>
+		<!-- Background Image -->
+		<div id = "FruitPacman">
+		<img src="FruitPacman.jpg" >
+		</div>
+		<!-- Box telling you about the content on the page -->
+		<div id = "box3">
+		       <!-- Content of box -->
+			   <p align="left">Eating fewer calories isn't the key to losing weight. Eating foods with less calories but at a<br>proportional level will significantly increase your chances of dropping a few pounds. Here is a<br>list of foods with a low calorie rate which are very good for you.</p>
+		</div>
+		<!-- Table of foods & calories per 100g-->
+		<div>
+		    <!-- Table formet-->
+			<table id ="table2" style="border-width: 10px; border-spacing: 5px; padding: 15px">
+			<!-- Content of the table-->
+				<tr>
+				<th colspan="3" style="font-size: large; background-color: #31B404; color: black" width="50" >Common Low Calorie Foods</th>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Asparagus</th>
+					<td style="background-color: #FFFFFF">20 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Broccoli</th>
+					<td style="background-color: #FFFFFF">34 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Apples</th>
+					<td style="background-color: #FFFFFF">52 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Bananas</th>
+					<td style="background-color: #FFFFFF">89 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>	
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Brussel Sprouts</th>
+					<td style="background-color: #FFFFFF">10 Cal</td><td style="background-color: #BCF5A9">each</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Celery</th>
+					<td style="background-color: #FFFFFF">16 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Oranges</th>
+					<td style="background-color: #FFFFFF">47 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Lettuce</th>
+					<td style="background-color: #FFFFFF">15 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Fish</th>
+					<td style="background-color: FFFFFF">100+ Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Watermelon</th>
+					<td style="background-color: FFFFFF">30 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Melon</th>
+					<td style="background-color: FFFFFF">34 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Coffee</th>
+					<td style="background-color: FFFFFF">0 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Tomatoes</th>
+					<td style="background-color: FFFFFF">18 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Grapefruit</th>
+					<td style="background-color: FFFFFF">42 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Spinach</th>
+					<td style="background-color: FFFFFF">23 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Carrots</th>
+					<td style="background-color: FFFFFF">41 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Strawberries</th>
+					<td style="background-color: FFFFFF">33 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Yogurt</th>
+					<td style="background-color: FFFFFFF">59 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Pears</th>
+					<td style="background-color: FFFFFF">57 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Chili Peppers</th>
+					<td style="background-color: FFFFFF">40 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Arugula</th>
+					<td style="background-color: FFFFFF">25 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Cucumbers</th>
+					<td style="background-color: FFFFFF">16 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Cauliflower</th>
+					<td style="background-color: FFFFFF">38 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Milk</th>
+					<td style="background-color: FFFFFF">42 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Sweet Potato</th>
+					<td style="background-color: FFFFFF">86 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+				<tr>
+					<th rowspan="1" style="background-color: #FACC2E; color: black" >Brown Rice</th>
+					<td style="background-color: FFFFFF">111 Cal</td><td style="background-color: #BCF5A9">per 100g</td>
+				</tr>
+			</table>
+			
+			<!-- Calculator -->
+			<p><h3>Calorie Counter</h3></p>
+			<form name="calculator" >
+			<input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+			<input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+			<input type="button" value="3" onClick="document.calculator.ans.value+='3'">
+			<input type="button" value="+" onClick="document.calculator.ans.value+='+'"><br>
+			 
+			<input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+			<input type="button" value="5" onClick="document.calculator.ans.value+='5'">
+			<input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+			<input type="button" value="-" onClick="document.calculator.ans.value+='-'"><br>
+			 
+			<input type="button" value="7" onClick="document.calculator.ans.value+='7'">
+			<input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+			<input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+			<input type="button" value="*" onClick="document.calculator.ans.value+='*'"><br>
+			<input type="button" value="/" onClick="document.calculator.ans.value+='/'">
+			 
+			<input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+			<input type="reset" value="C">
+			<input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+			<br>Total <input type="textfield" name="ans" value="">
+			</form>
+
+		</div>
+       </center>
+	   
+
+       </ion-content>
+    </ion-pane>
+	
+  </body>
+ 
+</html>

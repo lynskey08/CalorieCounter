@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<CENTER>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+	
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="calorific">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Calorific</h1>
+      </ion-header-bar>
+      <ion-content>
+	  <link rel="stylesheet" href="styles.css">
+	    <!-- Tab Navigation -->
+		<div id="menu"><!-- Name of menu for the css -->
+		  <ul>
+		    <!-- Tab Navigation Names -->
+			<li><a href="index.html" title="Home">Home</a></li>
+			<li><a href="HighCalories.html" title="HighCalories">High Calorie Foods</a></li>
+			<li><a href="LowCalories.html" title="LowCalories">Low Calorie Foods</a></li>
+		  </ul>
+		</div>
+		<!-- Background Image -->
+		<div id = "FruitPacman" >
+			<img src="FruitPacman.jpg" >
+		</div>
+		<!-- Box with introduction to page(what it's about) -->
+		<div id = "box">
+				<!-- Content in box -->
+			   <h4 class="speech">Healthy Eating</h4> 
+			   <p align="left">A healthy eating plan gives your body the nutrients it needs every day while staying within your<br>daily calorie goal for weight loss. A healthy eating plan also will lower your risk for heart disease<br>and other health conditions.Everyone has a personal calorie limit. Staying within yours can help<br>you get to or maintain a healthy weight. Reaching a healthier weight is a balancing act. The<br>secret is learning how to balance your "energy in" and "energy out" over the long run.<br>"Energy in" is the calories from foods and beverages you have each day. "Energy out" is the calories you burn for basic body functions and physical activity.</p>
+		</div>
+      </ion-content>
+    </ion-pane>
+</CENTER>	
+  </body>
+</html>
+

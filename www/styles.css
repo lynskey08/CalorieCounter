@@ -1,0 +1,106 @@
+/*Css for the navigation tab on main page*/
+#menu{
+	width: cover;
+    height: 35px;
+	top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FACC2E;
+    vertical-align: text-center;
+    }
+	
+/*Css for text on navigation tabs text main page eliminating the underling of */
+#menu li a {
+	height: 32px;
+	text-decoration: none;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+    }
+	
+/**/
+#menu li { 
+	display: inline; 
+	padding: 8px 0 0 10px; 
+	}
+	
+/*Css for the background image on all pages */	
+#FruitPacman {
+    position: absolute;
+    width: cover;
+    top: 5px;
+    z-index: -1;
+	}
+
+/*Css for the introduction box on the main page*/
+#box{
+	position: relative;
+	width: 700px;
+	height: 350px;
+	top: 5px;
+	text-align: center;
+	font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+	line-height: 40px;
+	background-color: #BCF5A9;
+	border: 8px solid #FACC2E;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #BCF5A9;
+	opacity:0.6
+	}
+	
+/*Css for the information box on HighCarloies page*/	
+#box2{
+	position: relative;
+	width: 700px;
+	height: 200px;
+	top: 5px;
+	text-align: center;
+	font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+	line-height: 40px;
+	background-color: #BCF5A9;
+	border: 8px solid #FACC2E;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #BCF5A9;
+	opacity:0.6
+	}
+	
+/*Css for the information box on LowCarloies page*/
+#box3{
+	position: relative;
+	width: 700px;
+	height: 175px;
+	top: 5px;
+	text-align: center;
+	font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+	line-height: 40px;
+	background-color: #BCF5A9;
+	border: 8px solid #FACC2E;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #BCF5A9;
+	opacity:0.6
+	}
+	
+/*Css for table on HighCalories page making the table slightly transparent*/
+#table {
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    background: transparent;
+    }
+	
+/*Css for table on LowCalories page making the table slightly transparent*/	
+#table2 {
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    background: transparent;
+    }
